@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/*文件上传*/
+\$("#file").fileinput({
+	language: 'zh',
+	uploadUrl: '#',
+	allowedPreviewTypes: ['image'],
+	allowedFileTypes: ['image'],
+	allowedFileExtensions:  ['jpg', 'png', 'gif'],
+	maxFileSize : 2000,
+});
+\$("#file").on("fileuploaded", function(event, data, previewId, index) {
+	var fileName = data.response.name;
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>muljs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

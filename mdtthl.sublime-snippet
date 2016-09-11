@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<input type="text" class="form-control" value="2016-01-01 00:01" id="datetimepicker">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mdtthl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
